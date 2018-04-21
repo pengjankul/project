@@ -6,8 +6,15 @@ $this->title = 'My Yii Application';
 ?>
 <div class="site-index">
 
+    <!-- <div class="dropdown">
+        <a href="#" data-toggle="dropdown" class="dropdown-toggle">Language <b class="caret"></b></a>
+        <?php
+           // echo \app\components\LanguageDropdown::widget();
+        ?>
+    </div> -->
+
     <div class="jumbotron">
-        <h1>Congratulations!!!</h1>
+        <h1><?= Yii::t('app', 'congratulations') ?> </h1>
 
         <p class="lead">You have successfully created your Yii-powered application.</p>
 
