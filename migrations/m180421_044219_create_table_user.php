@@ -39,7 +39,7 @@ class m180421_044219_create_table_user extends Migration
             'contact_email' => $this->boolean()->notNull()->defaultValue(false),
             'contact_phone' => $this->boolean()->notNull()->defaultValue(false),
             'created' => $this->timestamp()->notNull()->defaultExpression('CURRENT_TIMESTAMP'),
-            'updated' => $this->timestamp()->notNull()
+            'updated' =>  'timestamp on update current_timestamp',
 
         ],'ENGINE InnoDB');
 

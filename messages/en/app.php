@@ -5,7 +5,10 @@
         'Home' => 'home',
         'About' => 'about',
         'Contact' => 'contact',
-        'Login' => 'login'
+        'Login' => 'login',
+        'if no account you can {register}' => 'If no account you can {register}',
+        'register' => 'Register',
+        'sign up' => 'Sign Up'
 
     ];
 ?>
